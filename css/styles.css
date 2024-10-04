@@ -23,7 +23,6 @@ a {
   font-weight: 700;
   line-height: 21px;
   letter-spacing: 0.03em;
-  text-align: left;
   color: #4d5ae5;
 }
 
@@ -41,10 +40,8 @@ a {
 
 .footer-text {
   font-size: 16px;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
-  text-align: left;
   color: #f4f4fd;
 }
 
@@ -58,8 +55,15 @@ a {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
-  text-align: left;
   color: #2e2f42;
+}
+
+.header-menu-link:hover {
+  color: #404bbf;
+}
+
+.header-menu-link-active:active {
+  text-decoration: underline;
 }
 
 .header-address {
@@ -74,8 +78,11 @@ a {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
-  text-align: left;
   color: #434455;
+}
+
+.address-item:hover {
+  color: #404bbf;
 }
 
 .hero {
@@ -87,18 +94,22 @@ a {
   font-weight: 700;
   line-height: 60px;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #ffffff;
 }
 
 .hero-button {
+  font-family: inherit;
   background-color: #4d5ae5;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.04em;
-  text-align: left;
   color: #ffffff;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: #404bbf;
 }
 
 .about-us {
@@ -115,16 +126,13 @@ a {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
-  text-align: left;
   color: #2e2f42;
 }
 
 .about-us-text {
   font-size: 16px;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
-  text-align: left;
   color: #434455;
 }
 
@@ -137,7 +145,6 @@ a {
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
 }
 
@@ -153,16 +160,13 @@ a {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
 }
 
 .team-text {
   font-size: 16px;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #434455;
 }
 
@@ -174,7 +178,6 @@ a {
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
 }
 
@@ -185,10 +188,8 @@ a {
 
 .portfolio-text {
   font-size: 16px;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
-  text-align: left;
   color: #434455;
 }
 
@@ -197,6 +198,19 @@ a {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
-  text-align: left;
   color: #2e2f42;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
